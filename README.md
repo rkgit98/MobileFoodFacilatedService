@@ -21,17 +21,17 @@ Apart from this searching rest api to filter data and get expired food truck ser
 While running this spring boot mail class, One batch job will gets executed which in turn read the csv file
 and convert that into entity object and persist in h2 inmemory db
 
-2. All api the resource has been there in **FoodTruckController** in com.zelish.food
+2. All api the resource has been there in **FoodTruckController** in com.zelish.food.controller
 Here all the rest api available for various operation.
 
 ## url for possible operation
 ---
-1. [fetching all foodtruck records](http://localhost:8082/zelish/foodTruck/fetch) *http://localhost:8082/zelish/foodTruck/fetch*
-2. [updating foodtruck records](http://localhost:8082/zelish/foodTruck/update/locationId) *http://localhost:8082/zelish/foodTruck/update/locationId*
-3. [deleting foodtruck records](http://localhost:8082/zelish/foodTruck/delete/locationId) *http://localhost:8082/zelish/foodTruck/delete/locationId*
-4. [creating new foodtruck records](http://localhost:8082/zelish/foodTruck/create) *http://localhost:8082/zelish/foodTruck/create*
-5. [searching all foodtruck records](http://localhost:8082/zelish/foodTruck/search) *http://localhost:8082/zelish/foodTruck/search*
-6. [get expired foodtruck records](http://localhost:8082/zelish/foodTruck/expired/records) *http://localhost:8082/zelish/foodTruck/expired/records*
+1. [fetching all foodtruck records](http://localhost:8082/zelish/foodTruck/fetch) |*http://localhost:8082/zelish/foodTruck/fetch*
+2. [updating foodtruck records](http://localhost:8082/zelish/foodTruck/update/locationId) |*http://localhost:8082/zelish/foodTruck/update/locationId*
+3. [deleting foodtruck records](http://localhost:8082/zelish/foodTruck/delete/locationId) |*http://localhost:8082/zelish/foodTruck/delete/locationId*
+4. [creating new foodtruck records](http://localhost:8082/zelish/foodTruck/create) |*http://localhost:8082/zelish/foodTruck/create*
+5. [searching all foodtruck records](http://localhost:8082/zelish/foodTruck/search) |*http://localhost:8082/zelish/foodTruck/search*
+6. [get expired foodtruck records](http://localhost:8082/zelish/foodTruck/expired/records) |*http://localhost:8082/zelish/foodTruck/expired/records*
 
 ## Database Access Url
 ---
